@@ -1,4 +1,25 @@
+body {
+    display: flex;
+    gap: 10px;
+}
+
 #uno, #dos, #tres, #cuatro {
     width: 200px;
     height: 200px;
+}
+
+#uno {
+    background-color: yellow;
+}
+
+#dos {
+    background-color: green;
+}
+
+#tres {
+    background-color: blue;
+}
+
+#cuatro {
+    background-color: cyan;
 }
