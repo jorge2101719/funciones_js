@@ -3,17 +3,17 @@ let uno = document.querySelector('#uno');
 let dos = document.querySelector('#dos');
 let tres = document.querySelector('#tres');
 let cuatro = document.querySelector('#cuatro');
-let color = 'brown';
+let color = 'greenyellow';
 
 
 document.addEventListener('keydown', function(event) {
     console.log('dentro de la función');
     if (event.key === 'a') {
-        color = 'blue';
+        color = 'black';
     } else if (event.key === 's') {
-        color = 'green';
+        color = 'violet';
     } else if (event.key === 'd') {
-        color = 'yellow';
+        color = 'brown';
     }
 });
 

@@ -1,11 +1,19 @@
 body {
+    color: white;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2rem;
 }
 
 #uno, #dos, #tres, #cuatro {
     width: 200px;
     height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #uno {
