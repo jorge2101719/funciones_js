@@ -8,4 +8,4 @@ const suma = function (a, b) {
 */
 const suma = (a, b) => a + b;
 
-console.log('segunda parte: 5 + 7 = ' + suma(5, 7));
+console.log('Punto 2, el resultado es: 5 + 7 = ' + suma(5, 7));

@@ -10,12 +10,73 @@
 
 <body>
 
+    <p>
+        Los resultados del punto 1 y 2 se aprecian en consola.
+    </p>
+
+
+    <!-- Punto 3 -->
+    <h2>Punto 3 del desafío</h2>
+    <div id="ele1">Hola, al hacer click en este elemento, cambia el color de fondo</div>
+    <div id="ele2" onclick="pintar('yellow')">Punto 3.2</div>
+    <div id="ele3">Hola, aquí vamos a pintar usando 3.1 y 3.2</div>
+
+
+
+
+    <!-- Punto 4 -->
+
+    <h2>Punto 4 del desafío</h2>
     <div id="uno">algo</div>
     <div id="dos">algo</div>
     <div id="tres">algo</div>
     <div id="cuatro">algo</div>
 
 
+
+
+
+
+
+
+    <!-- scripts Punto 1 y 2 -->
+
+    <script src="assets/js/funcion_1.js"></script>
+    <script src="assets/js/funcion_2.js"></script>
+
+
+    <!-- scripts Punto 3 -->
+    <script>
+        // 3.1
+        // function pintar() {
+            // ele = document.getElementById('ele1');
+            // ele.style.backgroundColor = 'yellow';
+        // }
+    
+        // ele = document.getElementById('ele1');
+        // ele.addEventListener('click', pintar)
+    
+        let ele1 = document.getElementById('ele1');
+    
+        ele1.addEventListener('click', function () {
+            console.log('función 3.1')
+            ele1.style.backgroundColor = 'yellow';
+        })
+    </script>
+    
+    <script>
+        // 3.2
+        function pintar (color = 'green') {
+            // let ele2 = document.querySelector('#ele2');
+            ele2.style.backgroundColor = color;
+        }    
+    </script>
+    
+    
+    <script type="text/javascript" src="assets/js/script.js"></script>
+
+    
+    <!-- scripts Punto 4 -->
 
     <script src="assets/js/main.js"></script>
     

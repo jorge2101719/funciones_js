@@ -13,4 +13,4 @@ const example = function (a, b,c) {
 }
 
 let resultado = example(1,2,3)
-console.log('el resultado es: ' + resultado)
+console.log('Punto 1, el resultado 1 + 2 + 3 = ' + resultado)

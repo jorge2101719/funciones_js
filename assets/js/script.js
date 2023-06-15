@@ -31,6 +31,6 @@ ele3.addEventListener('click', pintarDos());
 
 function pintarDos (color = 'green') {
     // e.preventDefault();
-    console.log('estamos dentro de la función 3.3');
+    // console.log('estamos dentro de la función 3.3');
     ele3.style.backgroundColor = color;
 }
