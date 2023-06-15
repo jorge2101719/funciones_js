@@ -14,6 +14,35 @@
 
 
     <!-- <script src="assets/js/funcion_3.js"></script> -->
+    <script>
+        // 3.1
+        // function pintar() {
+            // ele = document.getElementById('ele1');
+            // ele.style.backgroundColor = 'yellow';
+        // }
+
+        // ele = document.getElementById('ele1');
+        // ele.addEventListener('click', pintar)
+
+        let ele1 = document.getElementById('ele1');
+
+        ele1.addEventListener('click', function () {
+            console.log('función 3.1')
+            ele1.style.backgroundColor = 'yellow';
+        })
+    </script>
+
+    <script>
+        // 3.2
+
+        function pintar (color = 'green') {
+            // let ele2 = document.querySelector('#ele2');
+            ele2.style.backgroundColor = color;
+        }
+
+    </script>
+
+
     <script type="text/javascript" src="assets/js/script.js"></script>
     
 </body>
