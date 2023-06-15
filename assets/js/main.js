@@ -1,19 +1,36 @@
+// let body = document.querySelector('body');
 let uno = document.querySelector('#uno');
 let dos = document.querySelector('#dos');
 let tres = document.querySelector('#tres');
 let cuatro = document.querySelector('#cuatro');
-let color1 = 'brown';
-let color2 = 'red';
-let color3 = 'purple';
+let color = 'brown';
 
 
-uno.addEventListener('keydown', function(event) {
+document.addEventListener('keydown', function(event) {
     console.log('dentro de la función');
-    if (event.key == 'a') {
-        uno.style.backgroundColor = color1;
-    } else if (event.key == 's') {
-        uno.style.backgroundColor = color2;
-    } else if (event.key == 'd') {
-        uno.style.backgroundColor = color3;
+    if (event.key === 'a') {
+        color = 'blue';
+    } else if (event.key === 's') {
+        color = 'green';
+    } else if (event.key === 'd') {
+        color = 'yellow';
     }
 });
+
+
+
+uno.addEventListener('click', () => {
+    uno.style.backgroundColor = color;
+})
+
+dos.addEventListener('click', () => {
+    dos.style.backgroundColor = color;
+})
+
+tres.addEventListener('click', () => {
+    tres.style.backgroundColor = color;
+})
+
+cuatro.addEventListener('click', () => {
+    cuatro.style.backgroundColor = color;
+})
