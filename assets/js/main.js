@@ -18,7 +18,6 @@ document.addEventListener('keydown', function(event) {
 });
 
 
-
 uno.addEventListener('click', () => {
     uno.style.backgroundColor = color;
 })
