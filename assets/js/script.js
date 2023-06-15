@@ -4,7 +4,6 @@
 
 let ele1 = document.getElementById('ele1');
 
-
 ele1.addEventListener('click', function () {
     console.log('función 3.1')
     ele1.style.backgroundColor = 'yellow';
@@ -22,10 +21,12 @@ function pintar (color = 'green') {
 
 // 3.3
 
-let elemento = documento.getElementById('elemento');
+let ele3 = document.querySelector('#ele3');
 
-elemento.addEventListener('click', function (color = 'green') {
-    console.log('estamos dentro de la función');
-    elemento.innerHTML = 'elemento pintado';
-    // elemento.style.backgroundColor = color;
-})
+ele3.addEventListener('click', pintarDos());
+
+function pintarDos (color = 'green') {
+    // e.preventDefault();
+    console.log('estamos dentro de la función 3.3');
+    ele3.style.backgroundColor = color;
+}
