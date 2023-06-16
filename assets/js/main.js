@@ -3,22 +3,31 @@ let uno = document.querySelector('#uno');
 let dos = document.querySelector('#dos');
 let tres = document.querySelector('#tres');
 let cuatro = document.querySelector('#cuatro');
-let error = document.querySelector('#error');
-let color = 'greenyellow';
+let comentario = document.querySelector('#comentario');
+let color = 'purple';
 
 
 document.addEventListener('keydown', function(event) {
     console.log('dentro de la función');
     if (event.key === 'a' || event.key === 'A') {
         color = 'black';
+        comentario.style.backgroundColor = 'white';
+        comentario.style.color = 'black';
+        comentario.innerHTML = 'Usted ha escogido el negro';
     } else if (event.key === 's' || event.key === 'S') {
         color = 'violet';
+        comentario.style.backgroundColor = 'white';
+        comentario.style.color = 'black';
+        comentario.innerHTML = 'Usted ha escogido el violeta';
     } else if (event.key === 'd' || event.key === 'D') {
         color = 'brown';
+        comentario.style.backgroundColor = 'white';
+        comentario.style.color = 'black'
+        comentario.innerHTML = 'Usted ha escogido el café';
     } else {
-        error.style.backgroundColor = 'red';
-        error.style.color = 'white';
-        error.innerHTML = 'Debe oprimir solamente a, s , d';
+        comentario.style.backgroundColor = 'red';
+        comentario.style.color = 'white';
+        comentario.innerHTML = 'Debe oprimir solamente a, s , d';
     }
 });
 
