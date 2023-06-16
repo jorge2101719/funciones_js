@@ -15,7 +15,9 @@ ele1.addEventListener('click', function () {
 
 // 3.2
 
-let ele2 = document.querySelector('#ele2')
+let ele2 = document.querySelector('#ele2');
+pintar();
+
 ele2.addEventListener ('click', () => {
     pintar('yellow')
 })
@@ -29,6 +31,7 @@ function pintar (color = 'green') {
 // 3.3
 
 let ele3 = document.querySelector('#ele3');
+// pintarDos();
 
 ele3.addEventListener('click', () => {
     pintarDos();
