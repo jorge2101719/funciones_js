@@ -9,11 +9,11 @@ let color = 'greenyellow';
 
 document.addEventListener('keydown', function(event) {
     console.log('dentro de la función');
-    if (event.key === 'a') {
+    if (event.key === 'a' || event.key === 'A') {
         color = 'black';
-    } else if (event.key === 's') {
+    } else if (event.key === 's' || event.key === 'S') {
         color = 'violet';
-    } else if (event.key === 'd') {
+    } else if (event.key === 'd' || event.key === 'D') {
         color = 'brown';
     } else {
         error.style.backgroundColor = 'red';
