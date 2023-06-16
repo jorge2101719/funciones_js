@@ -15,19 +15,24 @@ ele1.addEventListener('click', function () {
 
 // 3.2
 
-/*
+let ele2 = document.querySelector('#ele2')
+ele2.addEventListener ('click', () => {
+    pintar('yellow')
+})
+
 function pintar (color = 'green') {
-    // let ele2 = document.querySelector('#ele2');
     ele2.style.backgroundColor = color;
 }
-*/
+
 
 
 // 3.3
 
 let ele3 = document.querySelector('#ele3');
 
-ele3.addEventListener('click', pintarDos());
+ele3.addEventListener('click', () => {
+    pintarDos();
+} );
 
 function pintarDos (color = 'green') {
     // e.preventDefault();

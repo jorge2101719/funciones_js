@@ -3,6 +3,7 @@ let uno = document.querySelector('#uno');
 let dos = document.querySelector('#dos');
 let tres = document.querySelector('#tres');
 let cuatro = document.querySelector('#cuatro');
+let error = document.querySelector('#error');
 let color = 'greenyellow';
 
 
@@ -14,6 +15,10 @@ document.addEventListener('keydown', function(event) {
         color = 'violet';
     } else if (event.key === 'd') {
         color = 'brown';
+    } else {
+        error.style.backgroundColor = 'red';
+        error.style.color = 'white';
+        error.innerHTML = 'Debe oprimir solamente a, s , d';
     }
 });
 
