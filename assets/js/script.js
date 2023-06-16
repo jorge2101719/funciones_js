@@ -31,7 +31,6 @@ function pintar (color = 'green') {
 // 3.3
 
 let ele3 = document.querySelector('#ele3');
-// pintarDos();
 
 ele3.addEventListener('click', () => {
     pintarDos();
