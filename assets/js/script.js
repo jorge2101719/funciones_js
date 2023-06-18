@@ -2,14 +2,14 @@
 
 // 3.1
 
-/*
+
 let ele1 = document.getElementById('ele1');
 
 ele1.addEventListener('click', function () {
     console.log('función 3.1')
     ele1.style.backgroundColor = 'yellow';
 })
-*/
+
 
 
 

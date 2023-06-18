@@ -27,7 +27,7 @@ document.addEventListener('keydown', function(event) {
     } else {
         comentario.style.backgroundColor = 'red';
         comentario.style.color = 'white';
-        comentario.innerHTML = 'Debe oprimir solamente a, s , d';
+        comentario.innerHTML = 'Debe oprimir solamente a, s, d. Cualquier otra mostrará este mensaje.';
     }
 });
 
